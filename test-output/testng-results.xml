@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25205" started-at="2020-12-19T14:36:12Z" finished-at="2020-12-19T14:36:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25205" started-at="2020-12-19T14:36:12Z" finished-at="2020-12-19T14:36:37Z">
+      <class name="com.mercury.tours.OrangeHRM_Login_TestNG">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.mercury.tours.OrangeHRM_Login_TestNG@1d057a39]" name="LaunchBrowser" is-config="true" duration-ms="8417" started-at="2020-12-19T20:06:12Z" finished-at="2020-12-19T20:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.mercury.tours.OrangeHRM_Login_TestNG@1d057a39]" name="Login" duration-ms="15687" started-at="2020-12-19T20:06:20Z" finished-at="2020-12-19T20:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.mercury.tours.OrangeHRM_Login_TestNG@1d057a39]" name="CloseBrowser" is-config="true" duration-ms="1077" started-at="2020-12-19T20:06:36Z" finished-at="2020-12-19T20:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.mercury.tours.OrangeHRM_Login_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

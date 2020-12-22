@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="1" parallel="classes" >
+	<test name="Test1">
+    <classes>
+     	<class name="com.mercury.tours.OrangeHRM_Login_TestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
