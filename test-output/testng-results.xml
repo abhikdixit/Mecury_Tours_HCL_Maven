@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25205" started-at="2020-12-19T14:36:12Z" finished-at="2020-12-19T14:36:37Z">
+  <suite name="Suite" duration-ms="13827" started-at="2020-12-22T14:06:30Z" finished-at="2020-12-22T14:06:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25205" started-at="2020-12-19T14:36:12Z" finished-at="2020-12-19T14:36:37Z">
-      <class name="com.mercury.tours.OrangeHRM_Login_TestNG">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.mercury.tours.OrangeHRM_Login_TestNG@1d057a39]" name="LaunchBrowser" is-config="true" duration-ms="8417" started-at="2020-12-19T20:06:12Z" finished-at="2020-12-19T20:06:20Z">
+    <test name="Test" duration-ms="13827" started-at="2020-12-22T14:06:30Z" finished-at="2020-12-22T14:06:44Z">
+      <class name="com.mercury.tours.Mobile_Browser_View_Flight_Login">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@18be83e4]" name="LaunchBrowser" is-config="true" duration-ms="6642" started-at="2020-12-22T19:36:30Z" finished-at="2020-12-22T19:36:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.mercury.tours.OrangeHRM_Login_TestNG@1d057a39]" name="Login" duration-ms="15687" started-at="2020-12-19T20:06:20Z" finished-at="2020-12-19T20:06:36Z">
+        <test-method status="PASS" signature="SignOn()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@18be83e4]" name="SignOn" duration-ms="6344" started-at="2020-12-22T19:36:36Z" finished-at="2020-12-22T19:36:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.mercury.tours.OrangeHRM_Login_TestNG@1d057a39]" name="CloseBrowser" is-config="true" duration-ms="1077" started-at="2020-12-19T20:06:36Z" finished-at="2020-12-19T20:06:37Z">
+        </test-method> <!-- SignOn -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@18be83e4]" name="CloseBrowser" is-config="true" duration-ms="828" started-at="2020-12-22T19:36:43Z" finished-at="2020-12-22T19:36:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- com.mercury.tours.OrangeHRM_Login_TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.mercury.tours.Mobile_Browser_View_Flight_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
