@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13827" started-at="2020-12-22T14:06:30Z" finished-at="2020-12-22T14:06:44Z">
+  <suite name="Default suite" duration-ms="8825" started-at="2020-12-23T05:43:13Z" finished-at="2020-12-23T05:43:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13827" started-at="2020-12-22T14:06:30Z" finished-at="2020-12-22T14:06:44Z">
-      <class name="com.mercury.tours.Mobile_Browser_View_Flight_Login">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@18be83e4]" name="LaunchBrowser" is-config="true" duration-ms="6642" started-at="2020-12-22T19:36:30Z" finished-at="2020-12-22T19:36:36Z">
+    <test name="Default test" duration-ms="8825" started-at="2020-12-23T05:43:13Z" finished-at="2020-12-23T05:43:22Z">
+      <class name="com.mercury.tours.HDFC_Netbanking">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.mercury.tours.HDFC_Netbanking@2b98378d]" name="LaunchBrowser" is-config="true" duration-ms="6809" started-at="2020-12-23T11:13:13Z" finished-at="2020-12-23T11:13:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="SignOn()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@18be83e4]" name="SignOn" duration-ms="6344" started-at="2020-12-22T19:36:36Z" finished-at="2020-12-22T19:36:43Z">
+        <test-method status="PASS" signature="EnterCustomerID()[pri:0, instance:com.mercury.tours.HDFC_Netbanking@2b98378d]" name="EnterCustomerID" duration-ms="579" started-at="2020-12-23T11:13:20Z" finished-at="2020-12-23T11:13:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignOn -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@18be83e4]" name="CloseBrowser" is-config="true" duration-ms="828" started-at="2020-12-22T19:36:43Z" finished-at="2020-12-22T19:36:44Z">
+        </test-method> <!-- EnterCustomerID -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.mercury.tours.HDFC_Netbanking@2b98378d]" name="CloseBrowser" is-config="true" duration-ms="1405" started-at="2020-12-23T11:13:21Z" finished-at="2020-12-23T11:13:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- com.mercury.tours.Mobile_Browser_View_Flight_Login -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.mercury.tours.HDFC_Netbanking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
