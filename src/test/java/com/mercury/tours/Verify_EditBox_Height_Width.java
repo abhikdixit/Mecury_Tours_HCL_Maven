@@ -14,7 +14,7 @@ public class Verify_EditBox_Height_Width {
 	
 	{
 		
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver","D:\\F Drive\\Selenium Training Data\\workspace\\Mecury_Tours_HCL_Maven\\chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
