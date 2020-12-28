@@ -1,4 +1,4 @@
-package pk_UI_Automation;
+package com.mercury.tours;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
