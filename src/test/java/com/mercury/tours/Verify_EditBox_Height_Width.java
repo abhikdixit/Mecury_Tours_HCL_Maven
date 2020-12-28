@@ -5,9 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
-
 public class Verify_EditBox_Height_Width {
 	@Test
 	public void Button_Height_Width()
