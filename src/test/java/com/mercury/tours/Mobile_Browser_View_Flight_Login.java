@@ -12,9 +12,9 @@ public class Mobile_Browser_View_Flight_Login {
 
 	@Test
 	public void SignOn() {
-		driver.get("https://www.borrowlenses.com/");
+		driver.get("https://www.shutterfly.com/");
 		// driver.get("https://www.shutterfly.com/");
-		System.out.println("Navigate to Borrowlenses page");
+		System.out.println("Navigate to Shutterfly Home page");
 	}
 
 	@BeforeTest
