@@ -5,6 +5,7 @@
     <classes>
       <class name="com.mercury.tours.OrangeHRM_Login_TestNG">
         <methods>
+          <include name="CloseBrowser"/>
           <include name="Login"/>
           <include name="LaunchBrowser"/>
         </methods>

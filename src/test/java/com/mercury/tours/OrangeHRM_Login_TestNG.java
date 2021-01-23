@@ -1,12 +1,14 @@
 package com.mercury.tours;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class OrangeHRM_Login_TestNG {
 	WebDriver driver;
@@ -20,17 +22,17 @@ public class OrangeHRM_Login_TestNG {
 		String ActElement = driver.findElement(By.linkText("Dashboard")).getText();
 		String ExpElement = "Dashboard";
 		Assert.assertEquals(ActElement, ExpElement);
-		System.out.println(ActElement);
-		driver.findElement(By.xpath("//a[contains(text(),'Welcome')]")).click();
+		/*System.out.println(ActElement);
+		driver.findElement(By.id("welcome")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Logout")).click();
-		driver.findElement(By.id("logInPanelHeading")).isDisplayed();
+		driver.findElement(By.id("logInPanelHeading")).isDisplayed();*/
 
   }
   @BeforeTest
   public void LaunchBrowser() {
-  	System.setProperty("webdriver.chrome.driver","D:\\F Drive\\Selenium Training Data\\workspace\\Mecury_Tours_HCL_Maven\\chromedriver.exe");
-		 driver = new ChromeDriver();
+  	WebDriverManager.firefoxdriver().setup();
+		 driver = new FirefoxDriver();
       //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
   }

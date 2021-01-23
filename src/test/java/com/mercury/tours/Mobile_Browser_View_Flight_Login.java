@@ -1,6 +1,9 @@
 package com.mercury.tours;
 
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,14 +15,14 @@ public class Mobile_Browser_View_Flight_Login {
 
 	@Test
 	public void SignOn() {
-		driver.get("https://www.borrowlenses.com/");
+		driver.get("https://www.shutterfly.com/");
 		// driver.get("https://www.shutterfly.com/");
-		System.out.println("Navigate to Borrowlenses page");
+		System.out.println("Navigate to Shutterfly Home page");
 	}
 
 	@BeforeTest
 	public void LaunchBrowser() {
-		System.setProperty("webdriver.chrome.driver","D:\\F Drive\\Selenium Training Data\\workspace\\Mecury_Tours_HCL_Maven\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 
 		ChromeOptions iPhoneOption = new ChromeOptions();
 

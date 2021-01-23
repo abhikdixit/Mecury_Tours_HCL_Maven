@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13616" started-at="2020-12-22T19:39:14 IST" finished-at="2020-12-22T19:39:28 IST">
+  <suite name="Suite" duration-ms="18397" started-at="2021-01-23T16:40:23 IST" finished-at="2021-01-23T16:40:42 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13616" started-at="2020-12-22T19:39:14 IST" finished-at="2020-12-22T19:39:28 IST">
+    <test name="Test" duration-ms="18397" started-at="2021-01-23T16:40:23 IST" finished-at="2021-01-23T16:40:42 IST">
       <class name="com.mercury.tours.Mobile_Browser_View_Flight_Login">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@523884b2]" name="LaunchBrowser" is-config="true" duration-ms="6103" started-at="2020-12-22T19:39:14 IST" finished-at="2020-12-22T19:39:20 IST">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@d8355a8]" name="LaunchBrowser" is-config="true" duration-ms="10352" started-at="2021-01-23T16:40:23 IST" finished-at="2021-01-23T16:40:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="PASS" signature="SignOn()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@523884b2]" name="SignOn" duration-ms="6659" started-at="2020-12-22T19:39:20 IST" finished-at="2020-12-22T19:39:27 IST">
+        <test-method status="PASS" signature="SignOn()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@d8355a8]" name="SignOn" duration-ms="6219" started-at="2021-01-23T16:40:34 IST" finished-at="2021-01-23T16:40:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignOn -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@523884b2]" name="CloseBrowser" is-config="true" duration-ms="817" started-at="2020-12-22T19:39:27 IST" finished-at="2020-12-22T19:39:28 IST">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.mercury.tours.Mobile_Browser_View_Flight_Login@d8355a8]" name="CloseBrowser" is-config="true" duration-ms="1755" started-at="2021-01-23T16:40:40 IST" finished-at="2021-01-23T16:40:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->

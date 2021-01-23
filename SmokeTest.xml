@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="com.mercury.tours.Mobile_Browser_View_Flight_Login"/>
+      <class name="com.mercury.tours.OrangeHRM_Login_TestNG"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
