@@ -30,7 +30,7 @@ public class Flight_TestNG {
 
   @AfterTest
   public void CloseBrowser() {
-		driver.quit();
+		driver.close();
   }
 
 }
