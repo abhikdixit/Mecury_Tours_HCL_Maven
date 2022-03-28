@@ -2,6 +2,7 @@ package com.mercury.tours;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -31,8 +32,8 @@ public class OrangeHRM_Login_TestNG {
   }
   @BeforeTest
   public void LaunchBrowser() {
-  	WebDriverManager.firefoxdriver().setup();
-		 driver = new FirefoxDriver();
+  	WebDriverManager.chromedriver().setup();
+		 driver = new ChromeDriver();
       //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
   }

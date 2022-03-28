@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="classes">
+  <test name="Test1(failed)" parallel="classes">
+    <classes>
+      <class name="com.mercury.tours.OrangeHRM_Login_TestNG">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.mercury.tours.OrangeHRM_Login_TestNG -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

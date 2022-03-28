@@ -1,4 +1,5 @@
 com\mercury\tours\ReadDataFromExcel_XLS.class
+com\mercury\tours\Verify_EditBox_Height_Width.class
 com\mercury\tours\HDFC_Netbanking.class
 com\mercury\tours\ReadExcel_XLS.class
 com\mercury\tours\ApplicationTestData.class
