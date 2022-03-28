@@ -32,7 +32,7 @@
  <configuration>
  <suiteXmlFiles>
  <!-- TestNG suite XML files -->
- <suiteXmlFile>TestNG_Jenkins.xml</suiteXmlFile>
+ <suiteXmlFile>SmokeTest.xml</suiteXmlFile>
  </suiteXmlFiles>
  </configuration>
  </plugin>
